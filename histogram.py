@@ -86,7 +86,7 @@ plt.subplot(3, 3, 8)
 plt.hist(PD_POLESIE, bins=KUBELEK, color=PD_COLOR)
 plt.xlabel(r'Penetration depth [$\lambda$]')
 plt.axis(AXES_PD)
-plt. text(2.8, 10.5, 'Polesie', horizontalalignment='center', fontsize=17)
+plt.text(2.8, 10.5, 'Polesie', horizontalalignment='center', fontsize=17)
 
 plt.subplot(3, 3, 9)
 plt.hist(SWE_POLESIE, bins=KUBELEK, color=SWE_COLOR)
